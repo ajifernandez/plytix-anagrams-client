@@ -30,3 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ng new plytixAnagramsClient --directory ./
 npm run ng serve
 http://localhost:4200/
+
+npm i @angular/cdk
+npm i angular2-datatable
+npm i rxjs-compat
