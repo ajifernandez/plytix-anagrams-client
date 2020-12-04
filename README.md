@@ -34,3 +34,6 @@ http://localhost:4200/
 npm i @angular/cdk
 npm i angular2-datatable
 npm i rxjs-compat
+npm i @angular/material
+
+https://material.angular.io/cdk/drag-drop/overview
