@@ -1,4 +1,4 @@
-.example-list {
+.word-list {
   width: 500px;
   max-width: 100%;
   border: solid 1px #ccc;
@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.example-box {
+.word-box {
   padding: 20px 10px;
   border-bottom: solid 1px #ccc;
   color: rgba(0, 0, 0, 0.87);
@@ -23,7 +23,7 @@
   font-size: 14px;
 }
 
-.example-selected-box {
+.word-selected-box {
   padding: 20px 10px;
   border-bottom: solid 1px #ccc;
   color: rgba(0, 0, 0, 0.87);

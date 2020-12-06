@@ -1,6 +1,6 @@
-<div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
-  <div class="example-box" *ngFor="let word of words" cdkDrag>
-    {{ word.word }}
+<div cdkDropList class="word-list" (cdkDropListDropped)="drop($event)">
+  <div class="word-box" *ngFor="let word of words" cdkDrag>
+    {{ word }}
   </div>
 </div>
 <input type="text" class="form-control" (input)="onSearchChange($event.target.value)">

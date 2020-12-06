@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
-import { Word } from '../model/word.model';
 
 @Injectable({
   providedIn: 'root'
@@ -9,15 +8,15 @@ export class AnagramsService {
     
   apiAnagramsURL: string = 'http://127.0.0.1:5000/api/anagrams';
 
-  words: Word[] = [];
+  words: String[] = [];
 
   constructor(private httpClient: HttpClient) { }
 
   public retrieveWords(): any {
-    return this.httpClient.get<Word[]>(`${this.apiAnagramsURL}/words`);
+    return this.httpClient.get<String[]>(`${this.apiAnagramsURL}/words`);
   }
 
-  public saveWords(words: Word[]) {
+  public saveWords(words: String[]) {
     return this.httpClient.post(`${this.apiAnagramsURL}/save`, words).subscribe();
   }
 
